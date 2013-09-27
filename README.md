@@ -15,11 +15,6 @@ That GenericDAO may be a SqlDAO, XmlDAO, or AccessDAO - the rest of the code doe
 
 The objective is generic data-access that could easily be hot-pluggable and uses reflection to bind to plain-old-data types.
 
-Crazy things it does
-=========
-
-The Github version doesn't do it, but my own version queries the db table (doesn't care about xml) to remove or delete columns based on their prescense in the class.
-
 Cool things I'm doing that you could do
 =========
 
