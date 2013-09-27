@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DataObjectPicker.ascx.cs" Inherits="DAOTest.DataObjectPicker" %>
+<asp:DropDownList runat="server" ID="ddlPicker" OnSelectedIndexChanged="OnSelChg"/>
